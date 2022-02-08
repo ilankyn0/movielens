@@ -74,7 +74,6 @@ ncol(split_edx)
 summary(edx)
 #The code above confirms that there are no missing values.
 
-# EDX Quiz
 # No. of zeros were given as ratings in the edx dataset
 edx %>% filter(rating == 0) %>% tally()
 
